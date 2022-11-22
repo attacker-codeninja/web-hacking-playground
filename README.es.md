@@ -56,7 +56,7 @@ Una vez instalado todo lo necesario, se puede clonar el repositorio y desplegar 
 
 Esto creará dos contenedores de aplicaciones desarrolladas en Flask en el puerto 80:
 
-* **La aplicación web vulnerable - Socially**: Simula una red social.
+* **La aplicación web vulnerable (Socially)**: Simula una red social.
 * **El servidor de explotación:** No hay que intentar hackearlo, ya que no tiene ninguna vulnerabilidad. Su objetivo es simular el acceso de una víctima a un enlace malicioso.
 
 ### Importante
