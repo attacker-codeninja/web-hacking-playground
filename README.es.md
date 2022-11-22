@@ -12,7 +12,7 @@ Adicionalmente, cabe destacar que el fuzzing (tanto de parámetros como de direc
 
 ## Instalación
 
-Se recomienda utilizar Kali Linux para realizar este laboratorio. Se puede descargar desde [la página oficial](https://www.kali.org/get-kali/). En caso de utilizar una máquina virtual, se aconseja utilizar el hipervisor [VMware Workstation Player](https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html).
+Se recomienda utilizar [Kali Linux](https://www.kali.org/get-kali/) para realizar este laboratorio. En caso de utilizar una máquina virtual, se aconseja utilizar el hipervisor [VMware Workstation Player](https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html).
 
 El entorno está basado en Docker y Docker Compose, por lo que es necesario tener instalados ambos.
 
