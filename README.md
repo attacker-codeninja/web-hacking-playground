@@ -97,7 +97,7 @@ The hints to solve this stage are:
 
 * Are there any striking posts on the home page?
 * You have to chain two vulnerabilities to steal the session. XSS is achieved by exploiting a vulnerability in Open Redirect, where the victim is redirected to an external URL.
-* The Open Redirect has some security restrictions. You have to find how to get around them. Analyzes which text strings are not allowed in the URL.
+* The Open Redirect has some security restrictions. You have to find how to get around them. Analyze which strings are not allowed in the URL.
 * Cookies are not the only place where session information is stored. Reviewing the source code of the JavaScript files included in the application can help clear up doubts.
 
 </details>
