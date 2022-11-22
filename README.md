@@ -12,7 +12,7 @@ Additionally, it should be noted that fuzzing (both parameters and directories) 
 
 ## Setup
 
-It is recommended to use Kali Linux to perform this lab. It can be downloaded from [the official page](https://www.kali.org/get-kali/). In case of using a virtual machine, it is advisable to use the [VMware Workstation Player](https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html) hypervisor.
+It is recommended to use [Kali Linux](https://www.kali.org/get-kali/) to perform this lab. In case of using a virtual machine, it is advisable to use the [VMware Workstation Player](https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html) hypervisor.
 
 The environment is based on Docker and Docker Compose, so it is necessary to have both installed.
 
