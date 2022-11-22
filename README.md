@@ -145,4 +145,4 @@ The following resources may be helpful in resolving the stages:
 
 ## Collaboration
 
-Pull requests with suggestions for improvements are accepted. If you find an error, you can open an issue.
+Pull requests are welcome. If you find any bugs, please open an issue.
