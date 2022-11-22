@@ -126,7 +126,7 @@ The hints to solve this stage are:
 * The SSTI is Blind, this means that the output of the code executed on the server is not obtained directly. The Python smtpd module allows you to create an SMTP server that prints messages it receives to standard output:
 
     `sudo python3 -m smtpd -n -c DebuggingServer 0.0.0.0:25`
-    
+
 * The application uses Flask, so it can be inferred that the template engine is Jinja2 because it is recommended by the official Flask documentation and is widely used. You must get a Jinja2 compatible payload to get the final flag.
 * The email message has a character limitation. Information on how to bypass this limitation can be found on the Internet.
 
