@@ -123,7 +123,7 @@ At this stage, the /flag file can be read through a Server Site Template Injecti
 The hints to solve this stage are:
 
 * Vulnerable functionality is protected by two-factor authentication. Therefore, before exploiting the SSTI, a way to bypass the OTP code request must be found. There are times when the application trusts the requests that are made from the same server and the HTTP headers play an important role in this situation.
-* The SSTI is Blind, that is, the output of the code executed on the server is not obtained directly. The Python smtpd module allows you to create an SMTP server that prints messages it receives to standard output:
+* The SSTI is Blind, this means that the output of the code executed on the server is not obtained directly. The Python smtpd module allows you to create an SMTP server that prints messages it receives to standard output:
 
     `sudo python3 -m smtpd -n -c DebuggingServer 0.0.0.0:25`
     
