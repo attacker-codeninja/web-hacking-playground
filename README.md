@@ -4,6 +4,8 @@
 
 Web Hacking Playground is a controlled web hacking environment. It consists of vulnerabilities found in real cases, both in pentests and in Bug Bounty programs. The objective is that users can practice with them, and learn to detect and exploit them.
 
+Other topics of interest will also be addressed, such as: bypassing filters by creating custom payloads, executing chained attacks exploiting various vulnerabilities, developing proof-of-concept scripts, among others.
+
 ### Important
 
 The application source code is visible. However, the lab's approach is a black box one. Therefore, the code should not be reviewed to resolve the challenges.
