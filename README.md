@@ -6,7 +6,7 @@ Web Hacking Playground is a controlled web hacking environment. It consists of v
 
 ### Important
 
-The application source code is visible. However, the lab's approach is a black box one. Therefore, the code should not be revised to resolve the challenges.
+The application source code is visible. However, the lab's approach is a black box one. Therefore, the code should not be reviewed to resolve the challenges.
 
 Additionally, it should be noted that fuzzing (both parameters and directories) and brute force attacks do not provide any advantage in this lab.
 
