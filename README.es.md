@@ -128,7 +128,7 @@ Las pistas para resolver esta etapa son:
     `sudo python3 -m smtpd -n -c DebuggingServer 0.0.0.0:25`
     
 * La aplicación usa Flask, por tanto, se puede deducir que el motor de plantillas es Jinja2 porque es recomendado por la documentación oficial de Flask y es ampliamente utilizado. Se debe conseguir un payload compatible con Jinja2 para conseguir la flag final.
-* El mensaje de correo electrónico cuenta con una limitación de caracteres. El pensamiento lateral y la creatividad pueden ayudar a encontrar una forma de saltarse este límite. En Internet debería ser fácil encontrar una forma de hacerlo.
+* El mensaje de correo electrónico cuenta con una limitación de caracteres. En Internet, se puede encontrar información sobre cómo saltarse esta limitación.
 
 </details>
 
