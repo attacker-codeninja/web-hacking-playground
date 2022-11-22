@@ -145,4 +145,4 @@ Los siguientes recursos pueden ser de ayuda para resolver las etapas:
 
 ## Colaboración
 
-Se aceptan pull requests con sugerencias de mejoras. En caso de encontrar algún error, se puede abrir un issue.
+Los pull requests son bienvenidos. Si encuentras algún bug, por favor, abre un issue.
