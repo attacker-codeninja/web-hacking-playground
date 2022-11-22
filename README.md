@@ -56,7 +56,7 @@ Once everything you need is installed, you can clone the repository and deploy t
 
 This will create two containers of applications developed in Flask on port 80:
 
-* **The vulnerable web application (Socially)**: Simulates a social network.
+* **The vulnerable web application - Socially**: Simulates a social network.
 * **The exploit server:** You should not try to hack it, since it does not have any vulnerabilities. Its objective is to simulate a victim's access to a malicious link.
 
 ### Important
