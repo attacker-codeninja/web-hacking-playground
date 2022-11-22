@@ -128,7 +128,7 @@ The hints to solve this stage are:
     `sudo python3 -m smtpd -n -c DebuggingServer 0.0.0.0:25`
     
 * The application uses Flask, so it can be inferred that the template engine is Jinja2 because it is recommended by the official Flask documentation and is widely used. You must get a Jinja2 compatible payload to get the final flag.
-* The email message has a character limitation. Lateral thinking and creativity can help find a way around this limit. On the internet it should be easy to find a way to do this.
+* The email message has a character limitation. Information on how to bypass this limitation can be found on the Internet.
 
 </details>
 
