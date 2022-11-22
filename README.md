@@ -142,8 +142,8 @@ The following resources may be helpful in resolving the stages:
 * [Twitter Advanced Search](https://twitter.com/search-advanced)
 * [HackTricks](https://book.hacktricks.xyz/)
 * [PortSwigger Learning Materials](https://portswigger.net/web-security/all-materials)
-* [PayloadAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)
-* [Payloadbox](https://github.com/payloadbox)
+* [Payloads All The Things](https://github.com/swisskyrepo/PayloadsAllTheThings)
+* [Payload Box](https://github.com/payloadbox)
 
 ## Collaboration
 
