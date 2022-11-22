@@ -123,10 +123,10 @@ En esta etapa, se puede leer el archivo /flag a través de una vulnerabilidad de
 Las pistas para resolver esta etapa son:
 
 * La funcionalidad vulnerable se encuentra protegida por un doble factor de autenticación. Por tanto, antes de explotar el SSTI, hay que conseguir una forma de saltarse la solicitud del código OTP. Hay veces que la aplicación confía en las peticiones que se hacen desde el mismo servidor y las cabeceras HTTP juegan un papel importante en esta situación.
-* El SSTI es Blind, es decir, no se obtiene la salida del código ejecutado en el servidor de forma directa. El módulo smtpd de Python permite crear un servidor SMTP que imprime en la salida estándar los mensajes que recibe:
+* El SSTI es Blind, esto quiere decir que la salida del código ejecutado en el servidor no se obtiene directamente. El módulo smtpd de Python permite crear un servidor SMTP que imprime en la salida estándar los mensajes que recibe:
 
     `sudo python3 -m smtpd -n -c DebuggingServer 0.0.0.0:25`
-    
+
 * La aplicación usa Flask, por tanto, se puede deducir que el motor de plantillas es Jinja2 porque es recomendado por la documentación oficial de Flask y es ampliamente utilizado. Se debe conseguir un payload compatible con Jinja2 para conseguir la flag final.
 * El mensaje de correo electrónico cuenta con una limitación de caracteres. En Internet, se puede encontrar información sobre cómo saltarse esta limitación.
 
