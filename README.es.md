@@ -97,7 +97,7 @@ Las pistas para resolver esta etapa son:
 
 * ¿Hay algún post llamativo en la página principal?
 * Hay que encadenar dos vulnerabilidades para robar la sesión. El XSS se consigue aprovechando una vulnerabilidad de Open Redirect, en la que se redirige a la víctima a una URL externa.
-* El Open Redirect cuenta con algunas restricciones de seguridad. Hay que encontrar cómo saltárselas. Analiza que cadenas de texto no se permiten en la URL.
+* El Open Redirect cuenta con algunas restricciones de seguridad. Hay que encontrar cómo saltárselas. Analiza que cadenas no se permiten en la URL.
 * Las cookies no son el único lugar donde se almacena la información relativa a la sesión. Revisar el código fuente de los archivos JavaScript incluidos en la aplicación puede ayudar a zanjar dudas.
 
 </details>
